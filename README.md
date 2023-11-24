@@ -15,11 +15,11 @@ Spring service designed for receiving messages from the Apache Kafka broker.
 Application dedicated to load testing systems using Gatling.
 
 ### Docker-Compose
-The project includes a `docker-compose.yml` file for configuring the Apache Kafka message broker.
+The project includes a `docker-compose.yaml` file for configuring the Apache Kafka message broker.
 
 ## How To Use?
 
-1. Run docker-compose with command "docker-compose up -d".
+1. Run docker-compose with command ```docker-compose up -d```.
 2. Create a new topic using this command in a running docker container with Apache Kafka:
 ```
 /opt/bitnami/kafka/bin/kafka-topics.sh \
