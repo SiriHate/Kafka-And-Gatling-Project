@@ -1,5 +1,6 @@
 package com.siri_hate.producer_service.controller;
 
+import com.siri_hate.producer_service.model.Message;
 import com.siri_hate.producer_service.service.ApplicationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -19,8 +20,8 @@ public class ApplicationController {
     }
 
     @PostMapping("/message")
-    public void sendMessage(@RequestBody String message) {
-        applicationService.sendMessage(message);
+    public void sendMessage(@RequestBody Message message) {
+        applicationService.sendMessage(message.getMessage());
     }
 
 }

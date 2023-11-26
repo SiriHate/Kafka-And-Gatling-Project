@@ -38,9 +38,11 @@ The project includes a `docker-compose.yml` file for configuring the Apache Kafk
 POST /api/message HTTP/1.1
 Host: localhost:8081
 Content-Type: application/json
-Content-Length: 18
+Content-Length: 35
 
-{ "Test message" }
+{
+    "message": "Hello world!"
+}
 ```
 
 ## Useful commands for working with Apache Kafka
