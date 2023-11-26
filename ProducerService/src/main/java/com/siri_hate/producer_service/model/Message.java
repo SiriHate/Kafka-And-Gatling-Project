@@ -1,8 +1,5 @@
 package com.siri_hate.producer_service.model;
 
-import org.springframework.stereotype.Component;
-
-@Component
 public class Message {
 
     private String message;
