@@ -1,5 +1,5 @@
-# SberTask
-SberTask is a project consisting of three services: ProducerServices, ConsumerService, and LoadTest.
+# KafkaAndGatlingProject
+KafkaAndGatlingProject is a project consisting of three services: ProducerServices, ConsumerService, and LoadTest.
 Producer Services and Consumer Service utility Spring to interact with the Apache Kafka message broker, while LoadTest employs Gatling for performance testing.
 The project includes a Docker Compose configuration for easy setup and a set of useful commands for working with Apache Kafka.
 
